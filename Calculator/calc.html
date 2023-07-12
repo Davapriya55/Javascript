@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <title>
+            calculator
+        </title>
+        <link rel="stylesheet" href="calc.css">
+    </head>
+    <body bgcolor="black">
+        <div class="main">
+            <div class="cal">
+                <div><input id="demoo" type="text" class="inp"></div>
+                <div class="insi">
+                <div>
+                    <button onclick="clr()" class="c">C</button>
+                    <button onclick="display('+')" class="op">+/-</button>
+                    <button onclick="display('%')" class="mod">%</button>
+                    <button onclick="display('/')" class="div">/</button>
+                </div>
+                <div>
+                    <button onclick="display('7')" class="sev">7</button>
+                    <button onclick="display('8')" class="eg">8</button>
+                    <button onclick="display('9')" class="nyn">9</button>
+                    <button onclick="display('*')" class="mul">*</button>
+                </div>
+                <div>
+                    <button onclick="display('4')" class="for">4</button>
+                    <button onclick="display('5')" class="fiv">5</button>
+                    <button onclick="display('6')" class="six">6</button>
+                    <button onclick="display('-')" class="sub">-</button>
+                </div>
+                <div>
+                    <button onclick="display('1')" class="one">1</button>
+                    <button onclick="display('2')" class="to">2</button>
+                    <button onclick="display('3')" class="thre">3</button>
+                    <button onclick="display('+')" class="add">+</button>
+                </div>
+                <div class="last">
+                    <button  onclick="display('0')" class="zero">0</button>
+                    <button onclick="display('.')" class="dot">.</button>
+                    <button onclick="dlt()"  class="del">del</button>
+                    <button onclick="eq()" class="eq">=</button>
+                </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            var outputscreen=document.getElementById("demoo");
+            function display(num)
+            {
+                outputscreen.value+=num;
+            }
+            function eq(num)
+            {
+                try
+                {
+                    outputscreen.value=eval(outputscreen.value);
+                }
+                catch(err)
+                {
+                    alert('invalid')
+                }
+            }
+            function dlt()
+            {
+                outputscreen.value=outputscreen.value.slice(1);
+            }
+            function clr()
+            {
+                outputscreen.value=" ";
+            }
+        </script>
+    </body>
+</html>

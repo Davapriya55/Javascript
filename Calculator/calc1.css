@@ -1,0 +1,284 @@
+.main
+{
+    height: 95%;
+    width: 95%;
+    margin-top: 25px;
+    margin-left: 30px;
+    display: flex;
+}
+.cal
+{
+    height: 450px;
+    width: 300px;
+    margin-left: 500px;
+    margin-top: 100px;
+    border-radius: 30px;
+    background-color: whitesmoke;
+}
+.inp
+{
+    margin-top: 30px;
+    margin-left: 25px;
+    padding-left: 10px;
+    padding-top: 30px;
+    border:none;
+    outline: none;
+    border-radius: 10px;
+    text-align: right;
+    font-size: large;
+    font-weight: bolder;
+    box-shadow: 2px 2px 2px 2px;
+}
+.c
+{
+    display: inline-block;
+    padding: 10px 10px;
+    text-align: center;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 20px;
+    box-shadow: 2px 2px 2px 2px;   
+}
+.op
+{
+    padding: 10px 10px;
+    text-align: center;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 10px;
+    box-shadow: 2px 2px 2px 2px;
+}
+.mod
+{
+    padding: 10px 20px;
+    text-align: center;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 10px;
+    box-shadow: 2px 2px 2px 2px;
+}
+.div
+{
+    padding: 10px 20px;
+    text-align: center;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 10px;
+    box-shadow: 2px 2px 2px 2px;
+}
+.sev
+{
+    padding: 10px 20px;
+    text-align: center;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 20px;
+    box-shadow: 2px 2px 2px 2px;
+}
+.eg
+{
+    padding:10px 20px;
+    text-align: center;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 10px;
+    box-shadow: 2px 2px 2px 2px;
+}
+.nyn
+{
+    padding: 10px 20px;
+    text-align: center;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 10px;
+    box-shadow: 2px 2px 2px 2px;
+}
+.mul
+{
+    padding: 10px 20px;
+    text-align: center;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 10px;
+    box-shadow: 2px 2px 2px 2px;
+}
+.for
+{
+    padding: 10px 20px;
+    text-align: center;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 20px;
+    box-shadow: 2px 2px 2px 2px;
+}
+.fiv
+{
+    padding: 10px 20px;
+    text-align: center;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 10px;
+    box-shadow: 2px 2px 2px 2px;
+}
+.six
+{
+    padding: 10px 20px;
+    text-align: center;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 10px;
+    box-shadow: 2px 2px 2px 2px;
+}
+.sub
+{
+    padding: 10px 22px;
+    text-align: center;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 10px;
+    box-shadow: 2px 2px 2px 2px;
+}
+.one
+{
+    padding: 10px 20px;
+    text-align: center;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 20px;
+    box-shadow: 2px 2px 2px 2px;
+}
+.to
+{
+    padding: 10px 20px;
+    text-align: center;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 10px;
+    box-shadow: 2px 2px 2px 2px;
+}
+.thre
+{
+    padding: 10px 20px;
+    text-align: center;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 10px;
+    box-shadow: 2px 2px 2px 2px;
+}
+.add
+{
+    padding: 10px 20px;
+    text-align: center;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 10px;
+    box-shadow: 2px 2px 2px 2px;
+}
+.zero
+{
+    padding: 10px 55px;
+    text-align: center;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 20px;
+    box-shadow: 2px 2px 2px 2px;
+}
+.dot
+{
+    padding: 10px 20px;
+    text-align: center;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 10px;
+    box-shadow: 2px 2px 2px 2px;
+}
+.eq
+{
+    padding: 10px 20px;
+    text-align: center;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 10px;
+    box-shadow: 2px 2px 2px 2px;
+}
+.insi
+{
+    margin-top: 15px;
+    margin-left: 8px;
+}
