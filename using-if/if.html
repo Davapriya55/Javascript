@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+    <link rel="stylesheet" href="if.css">
+    <script src="if.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>INTEREST CALCULATOR</h1>
+        <div class="fst">
+        <div class="in">
+            <label>Enter the amount</label>
+            <input id="inp" type="number" name="input" placeholder="Please enter a valid amount">
+            <label>Enter the month</label>
+            <input id="mon" type="number" placeholder="Please enter the month <=10">
+        </div>
+        <div>
+            <button type="submit" onclick="calc()">Calculate</button>
+        </div>
+        <div class="result" id="res"></div>
+        </div>
+        <div class="sec">
+            <h3>Interest calculations depends on month</h3>
+            <ul>
+                <li>1 to 3 months --- 5.8%</li>
+                <li>4 to 6 months --- 6.5%</li>
+                <li>7 to 9 months --- 6.8%</li>
+                <li>Greater than or equal to 10 --- 7%</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
