@@ -1,0 +1,60 @@
+.container
+{
+    width: 470px;
+    margin: 10vh auto 0 auto;
+    background-color: rgb(98, 240, 55);
+    border-radius: 5px;
+    padding: 30px;
+    height: 60vh;
+    text-align: center;
+}
+input
+{
+    padding: 7px 7px 5px 5px;
+    border: 2px solid black ;
+    border-radius: 25px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    width: 60%;
+    font-size: large;
+    font-weight: bolder;
+}
+label{
+    font-size: 20px;
+    margin-top: 120px;
+    font-weight: 300;
+}
+body
+{
+    background-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+    color: black;
+    text-shadow: 1px 1px 2px white, 0 0 25px blue, 0 0 5px darkblue;
+    text-decoration: wavy underline;
+}
+button
+{
+    margin-top: 35px;
+    width:50%;
+    border: 2px solid black ;
+    padding: 5px 5px;
+    background-color: black;
+    color: greenyellow;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: larger;
+}
+input:focus
+{
+    outline: none;
+}
+.result
+{
+    text-align: center;
+    font-weight: bold;
+    font-size: 28px;
+    margin-top: 35px;
+}
